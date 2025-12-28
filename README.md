@@ -41,3 +41,10 @@ It showcases my skills, projects, and contact information in a clean and respons
 - cd your-repo-name
 
 3. Open index.html in your browser
+
+## Screenshots
+
+![Home Page](Portfolio_website_screenshots/homePage.png)
+![About Section](Portfolio_website_screenshots/AboutMe.png)
+![My Work](Portfolio_website_screenshots/Project1.png)
+![Contact Me](Portfolio_website_screenshots/contact.png)
