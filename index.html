@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content = "IE=edge">
         <meta name = "viewport" content = "width=device-width, initial scale = 1.0">
         <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <link rel = "stylesheet" href = "styles.css">
     </head>
 
@@ -114,14 +115,23 @@ Built using HTML, CSS, and JavaScript, with live data fetched from the OpenWeath
                 <div class = "row">
                     <div class="contact-left">
                     <h1 class = "sub-title">Contact Me</h1>
-                    <p>snehaelzadavid70@gmail.com</p>
-                    <p>9443309948</p>
-                    <div class = "social icons">
-                        <a href = "https://www.linkedin.com/in/sne
-ha-elza-david-675600348"><i class="fa-brands fa-linkedin"></i></a>
+                    <p><i class="fa-solid fa-envelope"></i>  snehaelzadavid70@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>   9443309948</p>
+                        <div class = "social-icons">
+                            <a href = "https://www.linkedin.com/in/sneha-elza-david-675600348" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i></a>
+                        </div>
                     </div>
+                
+                    <div class="contact-right">
+                        <form>
+                            <input type = "text" name = "Name" placeholder="Your Name" required>
+                            <input type = "email" name = "email" placeholder="Your email" required>
+                            <textarea name = "Message" rows = "6" placeholder="Your Message"></textarea>
+                            <button type = "submit">Submit</button>
+                            
+                        </form>
                     </div>
-                    <div class="contact-right"></div>
 
                 </div>
             </div>
