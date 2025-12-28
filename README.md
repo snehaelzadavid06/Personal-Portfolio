@@ -24,6 +24,13 @@ It showcases my skills, projects, and contact information in a clean and respons
 - **JavaScript**
 - **Font Awesome** (for icons)
 
+## 🧩 Sections Included
+
+- **Home** – Introduction and headline  
+- **About** – Skills, education, and experience  
+- **Portfolio** – Sample work/projects  
+- **Contact** – Contact details and social links  
+
 ##  How to Run Locally
 
 1. Clone the repository  
