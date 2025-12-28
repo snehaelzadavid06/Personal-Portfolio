@@ -340,3 +340,12 @@ form btn2{
     margin-top: 20px;
     cursor: pointer;
 }
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #aaa;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
