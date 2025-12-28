@@ -250,3 +250,23 @@ nav ul li a:hover::after{
     transform: translateY((-5px));
 }
 
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #ff004f;
+}
+
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+}
