@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content = "width=device-width, initial scale = 1.0">
+        <title>Personal Portfolio</title>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+
+    <body>
+        <div id = "header">
+            <div class= "container">
+                  <nav>
+                     <img src="images/Picsart_25-12-28_17-23-01-277.png" class = "logo">
+                     <ul>
+                     <li><a href = "#">Home</a></li>
+                     <li><a href = "#">About</a></li>
+                     <li><a href = "#">Services</a></li>
+                     <li><a href = "#">Portfolio</a></li>
+                     <li><a href = "#">Contact</a></li>
+                     </ul>
+                    </nav>
+
+                <div class = "header-text">
+                     <p>UI/UX Designer</p>
+                     <h1>Hi, I'm <span>Sneha</span> Elza<br> David from LBSITW</h1>
+                </div>      
+            </div>
+        </div>
+        
+        <!----------------about------------>
+        <div id = "about">
+            <div class = "container">
+                <div class = "row">
+
+                   <div class = "about-col-1" >
+                    <img src = "images/aboutMe.png">
+                   </div>
+                   
+                   <div class = "about-col-2">
+                        <h1 class = "sub-title">About Me</h1>
+                        <p> Enthusiastic and motivated B.Tech Computer Science undergraduate with a strong interest in technology and innovation. Passionate about
+                            exploring emerging tech trends, developing practical solutions, and
+                            continuously learning new skills. Eager to contribute to dynamic teams
+                            and grow in a challenging, fast-paced environment.</p>
+
+                            <div class = "tab-titles">
+                                <p class = "tab-links active-link" onclick ="opentab('skills')">Skills</p>
+                                <p class = "tab-links" onclick ="opentab('experience')">Experience</p>
+                                <p class = "tab-links" onclick ="opentab('education')">Education</p>
+                                
+                            </div>
+                            <div class = "tab-contents active-tab" id = "skills">
+                                <ul>
+                                    <li><span>HTML CSS JavaScript</span><br>Designing Web Interfaces</li>
+                                     <li><span>Machine Learning</span><br>Data preprocessing, model training & evaluation</li>
+                                      <li><span>Programming</span><br>Java, C</li>
+                                </ul>
+                            </div>
+
+                            <div class = "tab-contents" id = "experience">
+                                <ul>
+                                    <li><span>June 2025 - July 2025</span><br>Worked as a Summer Research Intern at College of Engineering (CET) Trivandrum</li>
+                                </ul>
+                            </div>
+
+                             <div class = "tab-contents" id = "education">
+                                <ul>
+                                    <li><span>2024 - Present</span><br>B.Tech in Computer Science and Engineering at LBS Institute of Technology for Women</li>
+                                     <li><span>2022-2024</span><br>Christ Nagar Higher Secondary School (ICSE)</li>
+                                </ul>
+                            </div>
+                   </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--------------portfolio--------------->
+        <div id = "portfolio">
+            <div class = "container">
+                <h1 class = "sub-title">My Work</h1>
+                <div class = "work-list">
+                    <div class="work">
+                        <img src = "images/work-1.png"> 
+                        <div class = "layer">
+                            <h3>Weather App</h3>
+                            <p>A simple and elegant weather application that allows users to check real-time weather conditions for any city in the world.
+Built using HTML, CSS, and JavaScript, with live data fetched from the OpenWeather API.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src = "images/work-2.png">
+                        <div class = "layer">
+                            <h3>Employee Payroll Management Desktop App</h3>
+                            <p>Java-based desktop application designed to simplify and automate employee payroll operations for organizations. The system provides an clean graphical user interface (GUI) built using Java Swing and uses PostgreSQL as the backend database for secure and efficient data storage.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src = "images/work-3.png">
+                        <div class = "layer">
+                            <h3>Console-based Tic-Tac-Toe</h3>
+                            <p>A simple console-based Tic Tac Toe game implemented in Java. The game supports two players who take turns placing their marks (X and O) on a 3*3 board.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                     for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+                     }
+                     for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+                     }
+                     event.currentTarget.classList.add("active-link");
+                     document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+    </body>
