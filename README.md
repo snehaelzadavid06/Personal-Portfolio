@@ -35,7 +35,7 @@ It showcases my skills, projects, and contact information in a clean and respons
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   https://github.com/snehaelzadavid06/Personal-Portfolio.git
 
 2. Open the project folder
 - cd your-repo-name
